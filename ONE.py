@@ -3,8 +3,8 @@ import pymysql
 
 
 con = pymysql.connect(
-    user = "root",
-    password = "",
+    user = "USERONE",
+    password = "123",
     host = "localhost",
     database = "BEKAT"
 )
