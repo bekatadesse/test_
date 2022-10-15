@@ -10,7 +10,7 @@ using python to use database
 con = pymysql.connect(
     user = "USERONE",
     password = "12345",
-    host = "qulocalhost",
+    host = "localhost",
     database = "BEKAT"
 )
 
