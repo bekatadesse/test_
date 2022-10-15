@@ -10,11 +10,12 @@ using python to use database
 con = pymysql.connect(
     user = "USERONE",
     password = "12345",
-    host = "localhost",
+    host = "qulocalhost",
     database = "BEKAT"
 )
 
 cursor = con.cursor()
+cursor.execute("INSERT INTO ONE (ID, NAME) VALUES(4,'MEGENASA');")
 cursor.execute("SELECT * FROM `ONE`;")
 table = cursor.fetchall()
 print(table)
