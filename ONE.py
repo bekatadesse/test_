@@ -1,13 +1,13 @@
 #!/usr/bin/python3
-import pymysql
 
+import MySQLdb
 """
 using python to use database
 ----USER
 ----PASWORD
 """
 
-con = pymysql.connect(
+con = MySQLdb.connect(
     user = "USERONE",
     password = "12345",
     host = "localhost",
